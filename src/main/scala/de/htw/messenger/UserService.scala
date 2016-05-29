@@ -9,7 +9,7 @@ import com.google.gson.{Gson, GsonBuilder}
   */
 object UserService {
 
-  var _userFile: String = "/home/vera/IdeaProjects/chatserver/data/users.json"
+  var _userFile: String = "data/users.json"
   private val gson: Gson = new GsonBuilder().create
 
   def userFile_(userFile : String) = _userFile = userFile
